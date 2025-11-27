@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Matrix',
+    
     'rest_framework',
     'oauth2_provider',
     'rest_framework.authtoken',

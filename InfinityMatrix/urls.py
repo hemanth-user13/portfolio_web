@@ -22,6 +22,6 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('o/',include('oauth2_provider.urls',namespace='oauth2_provider')),
-    path('api/', include('Matrix.urls')),
+    # path('api/', include('Matrix.urls')),
     path('user/', include('UserChat.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
