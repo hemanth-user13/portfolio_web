@@ -1,0 +1,15 @@
+Django>=4.2
+djangorestframework>=3.14.0
+
+# OAuth2
+django-oauth-toolkit>=2.3.0
+oauthlib>=3.2.2
+
+# OpenAI client
+openai>=1.0.0
+
+# Requests (used in your code)
+requests>=2.31.0
+
+# Optional but recommended for Django projects
+python-dotenv>=1.0.0
